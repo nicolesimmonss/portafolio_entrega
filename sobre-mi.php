@@ -29,7 +29,8 @@ $pg = "sobremi";
                     <h1 class="pb-4">Sobre mí </h1>
                     <p class="pb-5">Apasionada por la tecnología y gestión de proyectos. Soy estudiante de cursos de
                         programación Full Stack y de Base de datos.</p>
-                    <a class="btn btn-rojo mb-4">Enviar mensaje</a>
+                    <a href="contacto.php" class="btn btn-rojo mb-4">Enviar mensaje</a>
+
 
                 </div>
                 <div class="col-12 col-md-7 text-center pt-4 ">
