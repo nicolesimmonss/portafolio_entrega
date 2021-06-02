@@ -1,0 +1,421 @@
+/*GENERAL*/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+/*Titulos y Texto*/
+
+h1 {
+    color: #E20000;
+}
+
+.h2-small {
+    font-size: 24px !important;
+}
+
+p {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+.small {
+    max-width: 190px;
+}
+
+.biger {
+    font-size: 1.5em;
+}
+
+/*Backgrounds*/
+
+.bg-red {
+    background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);
+}
+
+.bg-grey {
+    background-color: #eee;
+}
+
+.bg-violet {
+    background-color: #370A6D;
+    padding: 40px 0;
+}
+
+.gradient {
+    background: rgb(214, 4, 4);
+    background: linear-gradient(155deg, rgba(214, 4, 4, 1) 0%, rgba(252, 42, 5, 1) 50%, rgba(190, 9, 9, 1) 100%);
+}
+
+/*Color de Textos*/
+
+.text-violet {
+    color: #370a6d;
+}
+
+.text-red {
+    color: #E20000;
+}
+
+/*Botones*/
+
+.btn {
+    color: #370a6d;
+    background-color: white;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #1b0536;
+}
+
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 55px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*BARRA DE NAVEGACIÓN*/
+
+nav .nav-link {
+    color: #282828;
+}
+
+nav .active {
+    border: 1px solid #E20000;
+    border-radius: 20px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*INICIO*/
+
+/*Fondo*/
+
+#inicio {
+    background-image: url(../images/fondo-contacto.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* bienvenid@ a mi sitio web*/
+
+.bienvenido {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+/*
+.cohete {
+    transform: scale(0.9);
+}*/
+
+.cohete:hover {
+    transform: scale(1.1);
+}
+
+/*Imagen*/
+
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*Proyectos*/
+
+/*Fondo*/
+
+#proyectos {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Titulos*/
+
+#proyectos h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+#proyectos img {
+    height: 177px;
+}
+
+#proyectos .max {
+    min-height: 200px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*Sobre Mí*/
+
+/*Fondo*/
+
+#sobre-mi {
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*Titulos y Texto*/
+
+#sobre-mi h1 {
+    color: #E20000;
+    font-size: 36px;
+}
+
+#sobre-mi h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+#sobre-mi h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#sobre-mi h4 {
+    font-size: 17px;
+}
+
+#sobre-mi .componente {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+
+#sobre-mi p {
+    color: #6a6a6a;
+    font-size: 16px;
+}
+
+/*Titulos en Experiencia */
+
+#experiencia h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#experiencia h4 {
+    font-size: 17px;
+}
+
+#experiencia h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+/*Titulos en Formación */
+
+#formacion h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#formacion h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+/*Titulos en Cursos*/
+
+#cursos h3 {
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#cursos h5 {
+    color: #6A6A6A;
+    font-size: 14px;
+}
+
+/*CARDS*/
+
+#sobre-mi .card-h {
+    height: 182px;
+}
+
+.redondeo {
+    border-radius: 15px;
+}
+
+#sobre-mi .card {
+    height: 182px;
+}
+
+/*Imagenes para que esten en gris*/
+
+.laboral {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.laboral:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*CONTACTO*/
+
+/*Fondo*/
+
+#contacto {
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*Contact Form*/
+
+input, textarea {
+    border-radius: 15px !important;
+}
+
+textarea {
+    height: 150px;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*FOOTER*/
+
+/*Vinculos*/
+
+footer, footer a {
+    color: white;
+    font-weight: 100;
+}
+
+.footer-red a {
+    color: #E20000;
+    font-weight: 100;
+}
+
+/*Github*/
+
+footer .icons-red {
+    color: #E20000 !important;
+}
+
+footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+
+/*Linkeding*/
+
+footer .linkedin-red {
+    color: white !important;
+    background-color: #E20000 !important;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+/*Whatsapp*/
+
+.whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.whatsapp a {
+    color: white;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+/*MEDIA QUERY*/
+
+@media (max-width: 750px) {
+    /* Para mobile */
+    #contacto {
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    footer a {
+        color: #E20000;
+    }
+    .bienvenido {
+        color: #E20000;
+        font-size: 17px;
+        border: 1px solid #E20000;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+    /*
+    #inicio {
+        background-image: url(../images/fondo-proyectos.png);
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100vh;
+    }*/
+}
+
+/*MEDIA QUERY para que no se deformen las cards cuando estab en tablet*/
+
+@media (min-width: 756px) and (max-width: 995px) {
+    .redondeo {
+        border-radius: 15px;
+        min-height: 270px;
+    }
+}
